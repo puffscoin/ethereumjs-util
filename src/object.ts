@@ -1,5 +1,5 @@
 const assert = require('assert')
-const ethjsUtil = require('ethjs-util')
+const puffsjsUtil = require('puffsjs-util')
 import rlp = require('rlp')
 import { toBuffer, baToJSON, stripZeros } from './bytes'
 
@@ -88,7 +88,7 @@ export const defineProperties = function(self: any, fields: any, data: any) {
   // if the constuctor is passed data
   if (data) {
     if (typeof data === 'string') {
-      data = Buffer.from(ethjsUtil.stripHexPrefix(data), 'hex')
+      data = Buffer.from(puffsjsUtil.stripHexPrefix(data), 'hex')
     }
 
     if (Buffer.isBuffer(data)) {
