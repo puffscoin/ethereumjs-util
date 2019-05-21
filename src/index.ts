@@ -1,5 +1,5 @@
 const secp256k1 = require('secp256k1')
-const ethjsUtil = require('ethjs-util')
+const puffsjsUtil = require('puffsjs-util')
 import BN = require('bn.js')
 import rlp = require('rlp')
 Object.assign(exports, ethjsUtil)
@@ -10,7 +10,7 @@ Object.assign(exports, ethjsUtil)
 export { BN }
 
 /**
- * [`rlp`](https://github.com/ethereumjs/rlp)
+ * [`rlp`](https://github.com/puffscoin/rlp)
  */
 export { rlp }
 
