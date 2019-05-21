@@ -1,4 +1,4 @@
-const ethjsUtil = require('ethjs-util')
+const puffsjsUtil = require('puffsjs-util')
 import BN = require('bn.js')
 
 /**
@@ -53,7 +53,7 @@ export const setLengthRight = function(msg: any, length: number) {
  * @return (Buffer|Array|String)
  */
 export const unpad = function(a: any) {
-  a = ethjsUtil.stripHexPrefix(a)
+  a = puffsjsUtil.stripHexPrefix(a)
   let first = a[0]
   while (a.length > 0 && first.toString() === '0') {
     a = a.slice(1)
@@ -72,7 +72,7 @@ export const toBuffer = function(v: any): Buffer {
     if (Array.isArray(v)) {
       v = Buffer.from(v)
     } else if (typeof v === 'string') {
-      if (ethjsUtil.isHexString(v)) {
+      if (puffsjsUtil.isHexString(v)) {
         v = Buffer.from(ethjsUtil.padToEven(ethjsUtil.stripHexPrefix(v)), 'hex')
       } else {
         throw new Error(
@@ -80,7 +80,7 @@ export const toBuffer = function(v: any): Buffer {
         )
       }
     } else if (typeof v === 'number') {
-      v = ethjsUtil.intToBuffer(v)
+      v = puffsjsUtil.intToBuffer(v)
     } else if (v === null || v === undefined) {
       v = Buffer.allocUnsafe(0)
     } else if (BN.isBN(v)) {
@@ -137,7 +137,7 @@ export const addHexPrefix = function(str: string): string {
     return str
   }
 
-  return ethjsUtil.isHexPrefixed(str) ? str : '0x' + str
+  return puffsjsUtil.isHexPrefixed(str) ? str : '0x' + str
 }
 
 /**
