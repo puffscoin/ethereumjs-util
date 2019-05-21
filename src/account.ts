@@ -1,5 +1,5 @@
 const assert = require('assert')
-const ethjsUtil = require('ethjs-util')
+const puffsjsUtil = require('puffsjs-util')
 const secp256k1 = require('secp256k1')
 import BN = require('bn.js')
 import { toBuffer, addHexPrefix, zeros, bufferToHex, unpad } from './bytes'
