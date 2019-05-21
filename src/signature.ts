@@ -135,7 +135,7 @@ export const isValidSignature = function(
  */
 export const hashPersonalMessage = function(message: Buffer): Buffer {
   const prefix = Buffer.from(
-    `\u0019Ethereum Signed Message:\n${message.length.toString()}`,
+    `\u0019Puffscoin Signed Message:\n${message.length.toString()}`,
     'utf-8',
   )
   return keccak(Buffer.concat([prefix, message]))
