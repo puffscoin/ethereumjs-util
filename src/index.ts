@@ -2,7 +2,7 @@ const secp256k1 = require('secp256k1')
 const puffsjsUtil = require('puffsjs-util')
 import BN = require('bn.js')
 import rlp = require('rlp')
-Object.assign(exports, ethjsUtil)
+Object.assign(exports, puffsjsUtil)
 
 /**
  * [`BN`](https://github.com/indutny/bn.js)
