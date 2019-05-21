@@ -1,6 +1,6 @@
 const createKeccakHash = require('keccak')
 const createHash = require('create-hash')
-const ethjsUtil = require('ethjs-util')
+const puffsjsUtil = require('puffsjs-util')
 import rlp = require('rlp')
 import { toBuffer, setLength } from './bytes'
 
@@ -11,7 +11,7 @@ import { toBuffer, setLength } from './bytes'
  * @param bits The Keccak width
  */
 export const keccak = function(a: any, bits: number = 256): Buffer {
-  if (typeof a === 'string' && !ethjsUtil.isHexString(a)) {
+  if (typeof a === 'string' && !puffsjsUtil.isHexString(a)) {
     a = Buffer.from(a, 'utf8')
   } else {
     a = toBuffer(a)
