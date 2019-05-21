@@ -13,7 +13,7 @@ Most of the string manipulation methods are provided by [ethjs-util](https://git
 Additionally puffscoinjs-util re-exports a few commonly-used libraries. These include:
 
 - `BN` ([bn.js](https://github.com/indutny/bn.js))
-- `rlp` ([rlp](https://github.com/ethereumjs/rlp))
+- `rlp` ([rlp](https://github.com/puffscoinjs/rlp))
 - `secp256k1` ([secp256k1](https://github.com/cryptocoinjs/secp256k1-node/))
 
 # puffscoinjs
