@@ -33,7 +33,7 @@ export const isZeroAddress = function(address: string): boolean {
  * Returns a checksummed address.
  */
 export const toChecksumAddress = function(address: string): string {
-  address = ethjsUtil.stripHexPrefix(address).toLowerCase()
+  address = puffsjsUtil.stripHexPrefix(address).toLowerCase()
   const hash = keccak(address).toString('hex')
   let ret = '0x'
 
