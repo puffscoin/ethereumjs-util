@@ -116,7 +116,7 @@ export const isValidPrivate = function(privateKey: Buffer): boolean {
 
 /**
  * Checks if the public key satisfies the rules of the curve secp256k1
- * and the requirements of Ethereum.
+ * and the requirements of PUFFScoin.
  * @param publicKey The two points of an uncompressed key, unless sanitize is enabled
  * @param sanitize Accept public keys in other formats
  */
@@ -134,8 +134,8 @@ export const isValidPublic = function(publicKey: Buffer, sanitize: boolean = fal
 }
 
 /**
- * Returns the ethereum address of a given public key.
- * Accepts "Ethereum public keys" and SEC1 encoded keys.
+ * Returns the PUFFScoin address of a given public key.
+ * Accepts "PUFFScoin public keys" and SEC1 encoded keys.
  * @param pubKey The two points of an uncompressed key, unless sanitize is enabled
  * @param sanitize Accept public keys in other formats
  */
@@ -151,7 +151,7 @@ export const pubToAddress = function(pubKey: Buffer, sanitize: boolean = false):
 export const publicToAddress = pubToAddress
 
 /**
- * Returns the ethereum address of a given private key.
+ * Returns the PUFFScoin address of a given private key.
  * @param privateKey A private key must be 256 bits wide
  */
 export const privateToAddress = function(privateKey: Buffer): Buffer {
@@ -159,7 +159,7 @@ export const privateToAddress = function(privateKey: Buffer): Buffer {
 }
 
 /**
- * Returns the ethereum public key of a given private key.
+ * Returns the PUFFScoin public key of a given private key.
  * @param privateKey A private key must be 256 bits wide
  */
 export const privateToPublic = function(privateKey: Buffer): Buffer {
@@ -169,7 +169,7 @@ export const privateToPublic = function(privateKey: Buffer): Buffer {
 }
 
 /**
- * Converts a public key to the Ethereum format.
+ * Converts a public key to the PUFFScoin format.
  */
 export const importPublic = function(publicKey: Buffer): Buffer {
   publicKey = toBuffer(publicKey)
