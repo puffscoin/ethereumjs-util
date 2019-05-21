@@ -1,5 +1,5 @@
 
-#  ethereumjs-util
+#  puffscoinjs-util
 
 ## Index
 
