@@ -1,4 +1,4 @@
-[ethereumjs-util](../README.md) > [ECDSASignature](../interfaces/ecdsasignature.md)
+[puffscoinjs-util](../README.md) > [ECDSASignature](../interfaces/ecdsasignature.md)
 
 # Interface: ECDSASignature
 
