@@ -73,7 +73,7 @@ export const toBuffer = function(v: any): Buffer {
       v = Buffer.from(v)
     } else if (typeof v === 'string') {
       if (puffsjsUtil.isHexString(v)) {
-        v = Buffer.from(ethjsUtil.padToEven(ethjsUtil.stripHexPrefix(v)), 'hex')
+        v = Buffer.from(puffsUtil.padToEven(puffsUtil.stripHexPrefix(v)), 'hex')
       } else {
         throw new Error(
           `Cannot convert string to buffer. toBuffer only supports 0x-prefixed hex strings and this string was given: ${v}`,
