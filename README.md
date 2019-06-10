@@ -6,7 +6,7 @@ A collection of utility functions for PUFFScoin. It can be used in node.js or ca
 
 [./docs/](./docs/README.md)
 
-Most of the string manipulation methods are provided by [ethjs-util](https://github.com/puffscoin/puffscoinjs-util)
+Most of the string manipulation methods are provided by [puffsjs-util](https://github.com/puffscoin/puffsjs-util)
 
 ---
 
