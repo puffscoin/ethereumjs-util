@@ -50,7 +50,7 @@ export const ecrecover = function(
 }
 
 /**
- * Convert signature parameters into the format of `eth_sign` RPC method.
+ * Convert signature parameters into the format of `puffs_sign` RPC method.
  * @returns Signature
  */
 export const toRpcSig = function(v: number, r: Buffer, s: Buffer, chainId?: number): string {
@@ -59,13 +59,13 @@ export const toRpcSig = function(v: number, r: Buffer, s: Buffer, chainId?: numb
     throw new Error('Invalid signature v value')
   }
 
-  // geth (and the RPC eth_sign method) uses the 65 byte format used by Bitcoin
+  // gpuffs (and the RPC puffs_sign method) uses the 65 byte format used by Bitcoin
   return bufferToHex(Buffer.concat([setLengthLeft(r, 32), setLengthLeft(s, 32), toBuffer(v)]))
 }
 
 /**
- * Convert signature format of the `eth_sign` RPC method to signature parameters
- * NOTE: all because of a bug in geth: https://github.com/ethereum/go-ethereum/issues/2053
+ * Convert signature format of the `puffs_sign` RPC method to signature parameters
+ * 
  */
 export const fromRpcSig = function(sig: string): ECDSASignature {
   const buf: Buffer = toBuffer(sig)
@@ -76,7 +76,7 @@ export const fromRpcSig = function(sig: string): ECDSASignature {
   }
 
   let v = buf[64]
-  // support both versions of `eth_sign` responses
+  // support both versions of `puffs_sign` responses
   if (v < 27) {
     v += 27
   }
@@ -128,8 +128,8 @@ export const isValidSignature = function(
 }
 
 /**
- * Returns the keccak-256 hash of `message`, prefixed with the header used by the `eth_sign` RPC call.
- * The output of this function can be fed into `ecsign` to produce the same signature as the `eth_sign`
+ * Returns the keccak-256 hash of `message`, prefixed with the header used by the `puffs_sign` RPC call.
+ * The output of this function can be fed into `ecsign` to produce the same signature as the `puffs_sign`
  * call for a given `message`, or fed to `ecrecover` along with a signature to recover the public key
  * used to produce the signature.
  */
