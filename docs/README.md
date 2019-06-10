@@ -71,7 +71,7 @@
 
 **● KECCAK256_NULL**: *`Buffer`* =  Buffer.from(KECCAK256_NULL_S, 'hex')
 
-*Defined in [constants.ts:28](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L28)*
+*Defined in [constants.ts:28](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L28)*
 
 Keccak-256 hash of null
 
@@ -82,7 +82,7 @@ ___
 
 **● KECCAK256_NULL_S**: *`string`* = "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
 
-*Defined in [constants.ts:22](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L22)*
+*Defined in [constants.ts:22](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L22)*
 
 Keccak-256 hash of null
 
@@ -93,7 +93,7 @@ ___
 
 **● KECCAK256_RLP**: *`Buffer`* =  Buffer.from(KECCAK256_RLP_S, 'hex')
 
-*Defined in [constants.ts:50](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L50)*
+*Defined in [constants.ts:50](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L50)*
 
 Keccak-256 hash of the RLP of null
 
@@ -104,7 +104,7 @@ ___
 
 **● KECCAK256_RLP_ARRAY**: *`Buffer`* =  Buffer.from(KECCAK256_RLP_ARRAY_S, 'hex')
 
-*Defined in [constants.ts:39](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L39)*
+*Defined in [constants.ts:39](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L39)*
 
 Keccak-256 of an RLP of an empty array
 
@@ -115,7 +115,7 @@ ___
 
 **● KECCAK256_RLP_ARRAY_S**: *`string`* = "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
 
-*Defined in [constants.ts:33](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L33)*
+*Defined in [constants.ts:33](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L33)*
 
 Keccak-256 of an RLP of an empty array
 
@@ -126,7 +126,7 @@ ___
 
 **● KECCAK256_RLP_S**: *`string`* = "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
 
-*Defined in [constants.ts:44](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L44)*
+*Defined in [constants.ts:44](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L44)*
 
 Keccak-256 hash of the RLP of null
 
@@ -140,7 +140,7 @@ ___
   16,
 )
 
-*Defined in [constants.ts:6](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L6)*
+*Defined in [constants.ts:6](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L6)*
 
 The max integer that this VM can handle
 
@@ -154,7 +154,7 @@ ___
   16,
 )
 
-*Defined in [constants.ts:14](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/constants.ts#L14)*
+*Defined in [constants.ts:14](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/constants.ts#L14)*
 
 2^256
 
@@ -165,7 +165,7 @@ ___
 
 **● publicToAddress**: *[pubToAddress]()* =  pubToAddress
 
-*Defined in [account.ts:151](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L151)*
+*Defined in [account.ts:151](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L151)*
 
 ___
 <a id="setlength"></a>
@@ -174,7 +174,7 @@ ___
 
 **● setLength**: *[setLengthLeft]()* =  setLengthLeft
 
-*Defined in [bytes.ts:37](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L37)*
+*Defined in [bytes.ts:37](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L37)*
 
 ___
 <a id="stripzeros"></a>
@@ -183,7 +183,7 @@ ___
 
 **● stripZeros**: *[unpad]()* =  unpad
 
-*Defined in [bytes.ts:64](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L64)*
+*Defined in [bytes.ts:64](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L64)*
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 ▸ **addHexPrefix**(str: *`string`*): `string`
 
-*Defined in [bytes.ts:135](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L135)*
+*Defined in [bytes.ts:135](https://github.com/puffscoin/puffscoinjsjs-util/blob/master/src/bytes.ts#L135)*
 
 Adds "0x" to a given `String` if it does not already start with "0x".
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **baToJSON**(ba: *`any`*): `any`
 
-*Defined in [bytes.ts:148](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L148)*
+*Defined in [bytes.ts:148](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L148)*
 
 Converts a `Buffer` or `Array` to JSON.
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **bufferToHex**(buf: *`Buffer`*): `string`
 
-*Defined in [bytes.ts:111](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L111)*
+*Defined in [bytes.ts:111](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L111)*
 
 Converts a `Buffer` into a hex `String`.
 
@@ -253,7 +253,7 @@ ___
 
 ▸ **bufferToInt**(buf: *`Buffer`*): `number`
 
-*Defined in [bytes.ts:103](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L103)*
+*Defined in [bytes.ts:103](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L103)*
 
 Converts a `Buffer` to a `Number`.
 
@@ -272,7 +272,7 @@ ___
 
 ▸ **defineProperties**(self: *`any`*, fields: *`any`*, data: *`any`*): `void`
 
-*Defined in [object.ts:17](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/object.ts#L17)*
+*Defined in [object.ts:17](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/object.ts#L17)*
 
 Defines properties on a `Object`. It make the assumption that underlying data is binary.
 
@@ -293,7 +293,7 @@ ___
 
 ▸ **ecrecover**(msgHash: *`Buffer`*, v: *`number`*, r: *`Buffer`*, s: *`Buffer`*, chainId?: *`undefined` \| `number`*): `Buffer`
 
-*Defined in [signature.ts:36](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L36)*
+*Defined in [signature.ts:36](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L36)*
 
 ECDSA public key recovery from signature.
 
@@ -317,7 +317,7 @@ ___
 
 ▸ **ecsign**(msgHash: *`Buffer`*, privateKey: *`Buffer`*, chainId?: *`undefined` \| `number`*): [ECDSASignature](interfaces/ecdsasignature.md)
 
-*Defined in [signature.ts:15](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L15)*
+*Defined in [signature.ts:15](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L15)*
 
 Returns the ECDSA signature of a message hash.
 
@@ -338,9 +338,9 @@ ___
 
 ▸ **fromRpcSig**(sig: *`string`*): [ECDSASignature](interfaces/ecdsasignature.md)
 
-*Defined in [signature.ts:70](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L70)*
+*Defined in [signature.ts:70](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L70)*
 
-Convert signature format of the `eth_sign` RPC method to signature parameters NOTE: all because of a bug in geth: [https://github.com/ethereum/go-ethereum/issues/2053](https://github.com/ethereum/go-ethereum/issues/2053)
+Convert signature format of the `puffs_sign` RPC method to signature parameters NOTE: all because of a bug in gpuffs.
 
 **Parameters:**
 
@@ -357,7 +357,7 @@ ___
 
 ▸ **fromSigned**(num: *`Buffer`*): `BN`
 
-*Defined in [bytes.ts:120](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L120)*
+*Defined in [bytes.ts:120](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L120)*
 
 Interprets a `Buffer` as a signed integer and returns a `BN`. Assumes 256-bit numbers.
 
@@ -376,7 +376,7 @@ ___
 
 ▸ **generateAddress**(from: *`Buffer`*, nonce: *`Buffer`*): `Buffer`
 
-*Defined in [account.ts:63](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L63)*
+*Defined in [account.ts:63](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L63)*
 
 Generates an address of a newly created contract.
 
@@ -396,7 +396,7 @@ ___
 
 ▸ **generateAddress2**(from: *`Buffer` \| `string`*, salt: *`Buffer` \| `string`*, initCode: *`Buffer` \| `string`*): `Buffer`
 
-*Defined in [account.ts:83](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L83)*
+*Defined in [account.ts:83](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L83)*
 
 Generates an address for a contract created using CREATE2.
 
@@ -417,9 +417,9 @@ ___
 
 ▸ **hashPersonalMessage**(message: *`Buffer`*): `Buffer`
 
-*Defined in [signature.ts:136](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L136)*
+*Defined in [signature.ts:136](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L136)*
 
-Returns the keccak-256 hash of `message`, prefixed with the header used by the `eth_sign` RPC call. The output of this function can be fed into `ecsign` to produce the same signature as the `eth_sign` call for a given `message`, or fed to `ecrecover` along with a signature to recover the public key used to produce the signature.
+Returns the keccak-256 hash of `message`, prefixed with the header used by the `pufs_sign` RPC call. The output of this function can be fed into `ecsign` to produce the same signature as the `puffs_sign` call for a given `message`, or fed to `ecrecover` along with a signature to recover the public key used to produce the signature.
 
 **Parameters:**
 
@@ -436,9 +436,9 @@ ___
 
 ▸ **importPublic**(publicKey: *`Buffer`*): `Buffer`
 
-*Defined in [account.ts:174](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L174)*
+*Defined in [account.ts:174](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L174)*
 
-Converts a public key to the Ethereum format.
+Converts a public key to the puffscoin format.
 
 **Parameters:**
 
@@ -455,7 +455,7 @@ ___
 
 ▸ **isPrecompiled**(address: *`Buffer` \| `string`*): `boolean`
 
-*Defined in [account.ts:105](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L105)*
+*Defined in [account.ts:105](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L105)*
 
 Returns true if the supplied address belongs to a precompiled account (Byzantium).
 
@@ -474,7 +474,7 @@ ___
 
 ▸ **isValidAddress**(address: *`string`*): `boolean`
 
-*Defined in [account.ts:20](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L20)*
+*Defined in [account.ts:20](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L20)*
 
 Checks if the address is a valid. Accepts checksummed addresses too.
 
@@ -493,7 +493,7 @@ ___
 
 ▸ **isValidChecksumAddress**(address: *`string`*): `boolean`
 
-*Defined in [account.ts:54](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L54)*
+*Defined in [account.ts:54](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L54)*
 
 Checks if the address is a valid checksummed address.
 
@@ -512,7 +512,7 @@ ___
 
 ▸ **isValidPrivate**(privateKey: *`Buffer`*): `boolean`
 
-*Defined in [account.ts:113](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L113)*
+*Defined in [account.ts:113](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L113)*
 
 Checks if the private key satisfies the rules of the curve secp256k1.
 
@@ -531,9 +531,9 @@ ___
 
 ▸ **isValidPublic**(publicKey: *`Buffer`*, sanitize?: *`boolean`*): `boolean`
 
-*Defined in [account.ts:123](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L123)*
+*Defined in [account.ts:123](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L123)*
 
-Checks if the public key satisfies the rules of the curve secp256k1 and the requirements of Ethereum.
+Checks if the public key satisfies the rules of the curve secp256k1 and the requirements of puffscoin.
 
 **Parameters:**
 
@@ -551,7 +551,7 @@ ___
 
 ▸ **isValidSignature**(v: *`number`*, r: *`Buffer`*, s: *`Buffer`*, homesteadOrLater?: *`boolean`*, chainId?: *`undefined` \| `number`*): `boolean`
 
-*Defined in [signature.ts:95](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L95)*
+*Defined in [signature.ts:95](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L95)*
 
 Validate a ECDSA signature.
 
@@ -574,7 +574,7 @@ ___
 
 ▸ **isZeroAddress**(address: *`string`*): `boolean`
 
-*Defined in [account.ts:27](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L27)*
+*Defined in [account.ts:27](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L27)*
 
 Checks if a given address is a zero address.
 
@@ -593,7 +593,7 @@ ___
 
 ▸ **keccak**(a: *`any`*, bits?: *`number`*): `Buffer`
 
-*Defined in [hash.ts:13](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/hash.ts#L13)*
+*Defined in [hash.ts:13](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/hash.ts#L13)*
 
 Creates Keccak hash of the input
 
@@ -613,7 +613,7 @@ ___
 
 ▸ **keccak256**(a: *`any`*): `Buffer`
 
-*Defined in [hash.ts:31](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/hash.ts#L31)*
+*Defined in [hash.ts:31](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/hash.ts#L31)*
 
 Creates Keccak-256 hash of the input, alias for keccak(a, 256).
 
@@ -632,9 +632,9 @@ ___
 
 ▸ **privateToAddress**(privateKey: *`Buffer`*): `Buffer`
 
-*Defined in [account.ts:157](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L157)*
+*Defined in [account.ts:157](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L157)*
 
-Returns the ethereum address of a given private key.
+Returns the puffscoin address of a given private key.
 
 **Parameters:**
 
@@ -651,9 +651,9 @@ ___
 
 ▸ **privateToPublic**(privateKey: *`Buffer`*): `Buffer`
 
-*Defined in [account.ts:165](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L165)*
+*Defined in [account.ts:165](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L165)*
 
-Returns the ethereum public key of a given private key.
+Returns the puffscoin public key of a given private key.
 
 **Parameters:**
 
@@ -672,7 +672,7 @@ ___
 
 *Defined in [account.ts:142](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L142)*
 
-Returns the ethereum address of a given public key. Accepts "Ethereum public keys" and SEC1 encoded keys.
+Returns the puffscoin address of a given public key. Accepts "puffscoin public keys" and SEC1 encoded keys.
 
 **Parameters:**
 
@@ -690,7 +690,7 @@ ___
 
 ▸ **ripemd160**(a: *`any`*, padded: *`boolean`*): `Buffer`
 
-*Defined in [hash.ts:51](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/hash.ts#L51)*
+*Defined in [hash.ts:51](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/hash.ts#L51)*
 
 Creates RIPEMD160 hash of the input.
 
@@ -710,7 +710,7 @@ ___
 
 ▸ **rlphash**(a: *`rlp.Input`*): `Buffer`
 
-*Defined in [hash.ts:67](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/hash.ts#L67)*
+*Defined in [hash.ts:67](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/hash.ts#L67)*
 
 Creates SHA-3 hash of the RLP encoded version of the input.
 
@@ -729,7 +729,7 @@ ___
 
 ▸ **setLengthLeft**(msg: *`any`*, length: *`number`*, right?: *`boolean`*): `any`
 
-*Defined in [bytes.ts:20](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L20)*
+*Defined in [bytes.ts:20](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L20)*
 
 Left Pads an `Array` or `Buffer` with leading zeros till it has `length` bytes. Or it truncates the beginning if it exceeds.
 
@@ -751,7 +751,7 @@ ___
 
 ▸ **setLengthRight**(msg: *`any`*, length: *`number`*): `any`
 
-*Defined in [bytes.ts:46](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L46)*
+*Defined in [bytes.ts:46](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L46)*
 
 Right Pads an `Array` or `Buffer` with leading zeros till it has `length` bytes. Or it truncates the beginning if it exceeds.
 
@@ -772,7 +772,7 @@ ___
 
 ▸ **sha256**(a: *`any`*): `Buffer`
 
-*Defined in [hash.ts:39](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/hash.ts#L39)*
+*Defined in [hash.ts:39](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/hash.ts#L39)*
 
 Creates SHA256 hash of the input.
 
@@ -791,7 +791,7 @@ ___
 
 ▸ **toBuffer**(v: *`any`*): `Buffer`
 
-*Defined in [bytes.ts:70](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L70)*
+*Defined in [bytes.ts:70](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L70)*
 
 Attempts to turn a value into a `Buffer`. As input it supports `Buffer`, `String`, `Number`, null/undefined, `BN` and other objects with a `toArray()` method.
 
@@ -810,7 +810,7 @@ ___
 
 ▸ **toChecksumAddress**(address: *`string`*): `string`
 
-*Defined in [account.ts:35](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L35)*
+*Defined in [account.ts:35](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L35)*
 
 Returns a checksummed address.
 
@@ -829,9 +829,9 @@ ___
 
 ▸ **toRpcSig**(v: *`number`*, r: *`Buffer`*, s: *`Buffer`*, chainId?: *`undefined` \| `number`*): `string`
 
-*Defined in [signature.ts:56](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/signature.ts#L56)*
+*Defined in [signature.ts:56](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/signature.ts#L56)*
 
-Convert signature parameters into the format of `eth_sign` RPC method.
+Convert signature parameters into the format of `puffs_sign` RPC method.
 
 **Parameters:**
 
@@ -852,7 +852,7 @@ ___
 
 ▸ **toUnsigned**(num: *`BN`*): `Buffer`
 
-*Defined in [bytes.ts:128](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L128)*
+*Defined in [bytes.ts:128](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L128)*
 
 Converts a `BN` to an unsigned integer and returns it as a `Buffer`. Assumes 256-bit numbers.
 
@@ -871,7 +871,7 @@ ___
 
 ▸ **unpad**(a: *`any`*): `any`
 
-*Defined in [bytes.ts:55](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L55)*
+*Defined in [bytes.ts:55](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L55)*
 
 Trims leading zeros from a `Buffer` or an `Array`.
 
@@ -891,7 +891,7 @@ ___
 
 ▸ **zeroAddress**(): `string`
 
-*Defined in [account.ts:11](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/account.ts#L11)*
+*Defined in [account.ts:11](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/account.ts#L11)*
 
 Returns a zero address.
 
@@ -904,7 +904,7 @@ ___
 
 ▸ **zeros**(bytes: *`number`*): `Buffer`
 
-*Defined in [bytes.ts:8](https://github.com/ethereumjs/ethereumjs-util/blob/master/src/bytes.ts#L8)*
+*Defined in [bytes.ts:8](https://github.com/puffscoin/puffscoinjs-util/blob/master/src/bytes.ts#L8)*
 
 Returns a buffer filled with 0s.
 
